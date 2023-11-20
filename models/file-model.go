@@ -11,6 +11,7 @@ type File struct {
 	FileName   string    `gorm:"not null" json:"file_name"`
 	FileSize   int64     `gorm:"not null" json:"file_size"`
 	UploadTime time.Time `gorm:"autoCreateTime" json:"upload_time"`
+	Path       string    `gorm:"not null" json:"path"`
 }
 
 func (File) TableName() string {

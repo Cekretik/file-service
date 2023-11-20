@@ -1,4 +1,4 @@
-module main.go
+module file-service
 
 go 1.20
 

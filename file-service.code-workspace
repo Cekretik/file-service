@@ -1,0 +1,12 @@
+{
+    "folders": [
+		{
+			"name": "file-service",
+			"path": "."
+		},
+		{
+			"name": "user-service",
+			"path": "../user-service"
+		}
+	]
+}
